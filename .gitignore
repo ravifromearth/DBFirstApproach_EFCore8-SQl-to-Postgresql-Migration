@@ -1,0 +1,89 @@
+# ============================
+# Visual Studio / .NET Ignore
+# ============================
+
+## Build Folders
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Dd]ebug/
+[Rr]elease/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+
+## Visual Studio Files
+.vs/
+.vscode/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+## NuGet Packages
+*.nupkg
+# Uncomment if you have private packages
+# packages/
+**/packages/*
+!**/packages/build/
+!**/packages/repositories.config
+
+## Logs
+*.log
+*.tlog
+
+## Resharper / Rider
+_ReSharper*/
+*.DotSettings.user
+
+## Entity Framework
+Migrations/obj/
+*.dbmdl
+*.dbproj.schemaview
+*.jfm
+
+## User Secrets
+secrets.json
+appsettings.*.json
+!appsettings.json  # Keep default one checked in
+
+## IIS / Hosting
+*.vspscc
+.vspscc/
+.vspsccbak/
+*.publish.xml
+publish/
+*.PublishSettings
+*.pubxml
+*.pubxml.user
+
+## Azure
+PublishProfiles/
+ServiceDependencies/
+Connected Services/
+.azure/
+App_Data/
+
+## Testing
+TestResult*/
+TestResults/
+*.coverage
+*.coveragexml
+
+## Temporary Files
+*.tmp
+*.bak
+*.swp
+*.cache
+*.diff
+
+## Others
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+.idea/
+node_modules/
+.env
+.env.*

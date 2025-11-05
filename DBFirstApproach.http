@@ -1,0 +1,6 @@
+@DBFirstApproach_HostAddress = http://localhost:5288
+
+GET {{DBFirstApproach_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
